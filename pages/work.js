@@ -1,11 +1,14 @@
 import Head from "next/head";
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 import Link from "next/link";
 import Image from "next/image";
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({
+  weight: '400',
+  subsets: ['latin'],
+})
 
-export default function Home() {
+export default function Work() {
   return (
     <>
       <Head>

@@ -35,6 +35,7 @@
   }
   
   .container .image {
+    display: block;
     width: auto;
   }
   

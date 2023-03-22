@@ -1,164 +1,122 @@
 /* Hero content */
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1%;
-    margin-bottom: 50px;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-style: solid;
+  border-width: 0px 3px 0px 3px;
+  background-color: #d8baff;
+}
+.content {
+  width: 50%;
+}
+.content h1 {
+  font-size: 53px;
+  margin: 20px;
+}
+.content p {
+  font-size: 22px;
+  margin: 20px;
+}
+.button {
+  background-color: #ff5f1f;
+  width: 300px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+.container .image {
+  display: block;
+  width: auto;
+  border-style: solid;
+  border-width: 0px 0px 0px 4px;
+  background-color: #f7cb45;
+  width: 50%;
+  text-align: center;
   
-  .content {
-    margin: 15px;
-  }
-  
-  .content h1 {
-    font-size: 53px;
-    margin-bottom: 15px;
-  }
-  
-  .content p {
-    font-size: 22px;
-    margin-bottom: 40px;
-  }
-  
-  .button {
-    background-color: #ff5f1f;
-    width: 300px;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    cursor: pointer;
-  }
-  
+}
+.container-2 {
+  display: flex;
+}
+.content-2 {
+  display: flex;
+}
+.content-2 p {
+  font-size: 26px;
+}
+.container-3 {
+  display: flex;
+  height: 200px;
+  border: solid;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hero content responsive */
+
+@media screen and (max-width: 600px) {
+
   .container .image {
-    display: block;
+    display: none;
     width: auto;
-  }
+    border-style: solid;
+    border-width: 0px 0px 0px 4px;
+    background-color: #f7cb45;
   
-  .container-2 {
-    display: flex;
   }
-  
-  .content-2 {
-    display: flex;
-    padding: 45px;
+  .content {
+    width: 100%;
   }
-  
-  .content-2 p {
-    font-size: 26px;
+ 
+
+  .content h1 {
+    font-size: 37px;
+
   }
-  
+
+  .content p {
+    font-size: 21px;
+  }
+
+  .container {
+    flex-direction: column;
+    
+  }
+
   .container-3 {
     display: flex;
-    max-width: 1000px;
-    height: 200px;
     margin: 0 auto;
-    border: 2px solid;
+    border: 3px solid;
     justify-content: center;
     align-items: center;
-    padding: 45px;
-    border-radius: 25px;
+    padding: 10px;
+    
   }
-  
-  /* Hero content responsive */
-  
-  @media screen and (max-width: 600px) {
-    .image {
-      display: none;
-    }
-  
-    .content h1 {
-      font-size: 37px;
-    }
-  
-    .content p {
-      font-size: 21px;
-    }
-  
-    .container {
-      flex-direction: column;
-      margin-bottom: 15px;
-    }
-  
-    .container-3 {
-      display: flex;
-      max-width: 320px;
-      height: 550px;
-      margin: 0 auto;
-      border: 3px solid;
-      justify-content: center;
-      align-items: center;
-      padding: 40px;
-      border-radius: 25px;
-    }
-  }
-  
-  .container-2 {
-    display: flex;
-    padding: 18px;
-    background-color: #000000;
-  }
-  
-  .content-2 {
-    display: flex;
-    align-items: center;
-    font-size: 21px;
-    color: white;
-    font-weight: normal;
-  }
-  
-  .content-2 p {
-    font-size: 21px;
-  }
-  
-  /*3 column content*/
-  
-  .column-3 {
-    display: flex;
-    margin: 0 -15px;
-    align-items: center;
-    padding: 3%;
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 21px;
-  }
-  .column {
-    margin: 0 15px 30px;
-  }
-  
-  .column h2 {
-    padding: 0px;
-    padding-bottom: 30px;
-  }
-  
-  .column p {
-    padding: 0px;
-  }
-  
-  .column img {
-    padding: 0px;
-  }
-  
-  /*3 column content responsive*/
-  
-  @media screen and (max-width: 980px) {
-    .column-3 {
-      margin-top: 5px;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .column-3 {
-      flex-direction: column;
-      font-size: 21px;
-    }
-  
-    .column {
-      padding: 15px;
-    }
-  }
-  
+}
+
+.container-2 {
+  display: flex;
+  padding: 18px;
+  background-color: #000000;
+}
+
+.content-2 {
+  display: flex;
+  align-items: center;
+  font-size: 21px;
+  color: white;
+  font-weight: normal;
+}
+
+.content-2 p {
+  font-size: 21px;
+}
+
+
+
+

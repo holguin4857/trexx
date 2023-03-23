@@ -4,9 +4,9 @@ import Link from "next/link";
 import Image from "next/image";
 
 const poppins = Poppins({
-  weight: '400',
-  subsets: ['latin'],
-})
+  weight: "400",
+  subsets: ["latin"],
+});
 
 export default function Work() {
   return (
@@ -18,16 +18,22 @@ export default function Work() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-     
-
-      
-
-      
-       
-   
-
-      
-      
+      <div class="row">
+        <div class="column1">
+          <h1>Hola!</h1>
+          <p>Me llamo Omar Holguín y me dedico a crear web apps minimalistas y
+            eficientes que se enfocan en la velocidad y la usabilidad.</p>
+        </div>
+        <div class="column2">
+        <Image
+            src="/images/me.png"
+            alt="loading"
+            width={331}
+            height={357}
+            style="responsive"
+          />
+        </div>
+      </div>
     </>
   );
 }

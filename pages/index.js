@@ -27,7 +27,7 @@ export default function Home() {
           </p>
          
         </div>
-        <div className="image">
+        <div className="content1">
           <Image
             src="/images/me.png"
             alt="loading"

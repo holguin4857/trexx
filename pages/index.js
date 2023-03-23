@@ -25,6 +25,7 @@ export default function Home() {
             Me llamo Omar Holguín y me dedico a crear diseños web minimalistas y
             eficientes que se enfocan en la velocidad y la usabilidad.
           </p>
+         
         </div>
         <div className="image">
           <Image
@@ -35,15 +36,16 @@ export default function Home() {
             style="responsive"
           />
         </div>
+       
       </section>
 
 
-      <section className="container-3">
+      <section className="container-2">
         <div className="content">
           <h1>Love Content Creation</h1>
         </div>
       </section>
-      <section className="container-3">
+      <section className="container-2">
         <div className="content">
           
         </div>

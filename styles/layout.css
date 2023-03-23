@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   border-style: solid;
-  border-width: 0px 3px 0px 3px;
+  border-width: 0px 3px 3px 3px;
   background-color: #d8baff;
 }
 .content {
@@ -18,104 +18,58 @@
   font-size: 22px;
   margin: 20px;
 }
-.button {
-  background-color: #ff5f1f;
-  width: 300px;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  cursor: pointer;
-}
 .container .image {
   display: block;
   width: auto;
   border-style: solid;
-  border-width: 0px 0px 0px 4px;
+  border-width: 0px 0px 0px 3px;
   background-color: #f7cb45;
   width: 50%;
   text-align: center;
-  
 }
 .container-2 {
-  display: flex;
-}
-.content-2 {
-  display: flex;
-}
-.content-2 p {
-  font-size: 26px;
-}
-.container-3 {
   display: flex;
   height: 200px;
   border: solid;
   justify-content: center;
   align-items: center;
+  border-width: 0px 3px 3px 3px;
+ 
 }
 
 /* Hero content responsive */
 
 @media screen and (max-width: 600px) {
-
+  .container {
+    flex-direction: column;
+  }
   .container .image {
     display: none;
     width: auto;
     border-style: solid;
     border-width: 0px 0px 0px 4px;
     background-color: #f7cb45;
-  
   }
   .content {
     width: 100%;
   }
- 
-
   .content h1 {
     font-size: 37px;
-
   }
-
   .content p {
     font-size: 21px;
   }
-
-  .container {
-    flex-direction: column;
-    
-  }
-
-  .container-3 {
+  .container-2 {
     display: flex;
-    margin: 0 auto;
     border: 3px solid;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding: 10px;
-    
+    border-width: 0px 3px 3px 3px;
   }
 }
 
-.container-2 {
-  display: flex;
-  padding: 18px;
-  background-color: #000000;
-}
-
-.content-2 {
-  display: flex;
-  align-items: center;
-  font-size: 21px;
-  color: white;
-  font-weight: normal;
-}
-
-.content-2 p {
-  font-size: 21px;
-}
 
 
 

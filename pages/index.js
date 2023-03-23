@@ -18,25 +18,21 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <section className="container">
-        <div className="content">
+      <section class="row">
+        <div class="column1">
           <h1>Hola!</h1>
-          <p>
-            Me llamo Omar Holguín y me dedico a crear diseños web minimalistas y
-            eficientes que se enfocan en la velocidad y la usabilidad.
-          </p>
-         
+          <p>Me llamo Omar Holguín y me dedico a crear web apps minimalistas y
+            eficientes que se enfocan en la velocidad y la usabilidad.</p>
         </div>
-        <div className="content1">
-          <Image
+        <div class="column2">
+        <Image
             src="/images/me.png"
             alt="loading"
-            width={662}
-            height={713}
+            width={331}
+            height={357}
             style="responsive"
           />
         </div>
-       
       </section>
 
 

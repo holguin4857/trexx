@@ -18,7 +18,7 @@ export default function Work() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div class="row">
+      <section class="row">
         <div class="column1">
           <h1>Hola!</h1>
           <p>Me llamo Omar Holguín y me dedico a crear web apps minimalistas y
@@ -33,7 +33,7 @@ export default function Work() {
             style="responsive"
           />
         </div>
-      </div>
+      </section>
     </>
   );
 }

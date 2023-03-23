@@ -18,7 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <section class="row">
+      <section class="row1">
         <div class="column1">
           <h1>Hola!</h1>
           <p>Me llamo Omar Holguín y me dedico a crear web apps minimalistas y
@@ -36,16 +36,26 @@ export default function Home() {
       </section>
 
 
-      <section className="container-2">
-        <div className="content">
+      <section className="row1">
+        
           <h1>Love Content Creation</h1>
-        </div>
+        
       </section>
-      <section className="container-2">
-        <div className="content">
-          
-        </div>
-      </section>
+
+      <div class="row2">
+  <div class="col1">
+    <h2>Static Websites</h2>
+    <p>Lighting fast and scalable Next js sites, Static or Full stack hosted in AWS Amplify and Vercel </p>
+  </div>
+  
+  <div class="col2">
+    <h2>Web Apps y Ecommerce</h2>
+    <p>Desarrollamos Apps and Ecommerce websites en bubble y Ecwid  </p>
+  </div>
+  
+
+</div>
+     
     </>
   );
 }

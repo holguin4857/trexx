@@ -105,5 +105,6 @@ nav {
   }
   .nav__menu-list {
     border-style: solid;
+    border-width: 3px 3px 3px 3px;
   }
 }

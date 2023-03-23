@@ -6,9 +6,6 @@ const MENU_LIST = [
   { text: "Home", href: "/" },
   { text: "About", href: "/about" },
   { text: "Work", href: "/work" },
-  
-  
-  
 ];
 
 const Navbar = () => {
@@ -30,7 +27,6 @@ const Navbar = () => {
           <div></div>
           <div></div>
           <div></div>
-          
         </div>
         <div className={`${navActive ? "active" : ""} nav__menu-list`}>
           {MENU_LIST.map((menu, idx) => (

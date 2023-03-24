@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Poppins } from "next/font/google";
 import Image from "next/image";
 
+
 const poppins = Poppins({
   weight: "400",
   subsets: ["latin"],
@@ -31,7 +32,6 @@ export default function Home() {
             alt="loading"
             width={331}
             height={357}
-           
           />
         </div>
       </section>

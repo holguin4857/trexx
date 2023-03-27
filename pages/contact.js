@@ -42,8 +42,8 @@ export default function Contact() {
 
       <section className="row1">
         <div className="column1">
-          <h1>Contact Me</h1>
-          <p>Please be human!</p>
+          <h1>Contact</h1>
+          
           <div>
             <form method="post" onSubmit={handleOnSubmit}>
               <p>

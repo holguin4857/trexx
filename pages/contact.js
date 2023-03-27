@@ -12,12 +12,19 @@ export default function Contact() {
   async function handleOnSubmit(e) {
     e.preventDefault();
 
-    const formData = {};
+    const formData = {}
 
     Array.from(e.currentTarget.elements).forEach((field) => {
       if (!field.name) return;
       formData[field.name] = field.value;
     });
+
+    fetch('/api/mail', {
+        method: 'post',
+        body: JSON.stringify(formData),
+    })
+
+    console.log(formData);
 
     await fetch("/api/mail", {
       method: "POST",
@@ -38,7 +45,7 @@ export default function Contact() {
           <h1>Contact Me</h1>
           <p>Please be human!</p>
           <div>
-            <form onSubmit={handleOnSubmit}>
+            <form method="post" onSubmit={handleOnSubmit}>
               <p>
                 <label htmlFor="name">Name</label>
                 <input id="name" type="text" name="name" />
@@ -52,7 +59,7 @@ export default function Contact() {
                 <textarea id="message" name="message" />
               </p>
               <p>
-                <button>Submit</button>
+                <button type="submit">Submit</button>
               </p>
             </form>
           </div>

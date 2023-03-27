@@ -42,7 +42,6 @@ export default function Contact() {
 
       <section className="row1">
         <div className="column1">
-          <h1>Contact</h1>
           
           <div>
             <form method="post" onSubmit={handleOnSubmit}>
